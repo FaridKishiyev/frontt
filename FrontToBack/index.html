@@ -1,0 +1,551 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css"
+      integrity="sha512-KfkfwYDsLkIlwQp6LFnl8zNdLGxu9YAA1QvwINks4PhcElQSvqcyVLLD9aMhXd13uQjoXtEKNosOWaZqXgel0g=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC"
+      crossorigin="anonymous"
+    />
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM"
+      crossorigin="anonymous"
+    ></script>
+    <link rel="stylesheet" href="assets/css/index.css" />
+    <title>Document</title>
+  </head>
+  <body>
+    <!-- <header>
+        <nav>
+            <div class="navbar">
+                <div class="container">
+                    <ul class="navbar-item-1">
+                        <li><a href="">HOME</a></li>
+                        <li><a href="">ABOUT</a></li>
+                        <li><a href="">SERVICE</a></li>
+                        <li><a href="">PROJECT</a></li>
+                       
+                    </ul>
+                    <div class="navbar-logo">
+                        <a href="">SOLAR</a>
+                    </div>
+                    <ul class="navbar-item-2">
+                        <li><a href="">TEAM</a></li>
+                        <li><a href="">FAQS</a></li>
+                        <li><a href="">TESTIMONIAL</a></li>
+                        <li><a href="">CONTACT</a></li>
+                    </ul>
+                </div>
+            </div>            
+                    
+        </nav>
+    </header> -->
+    <main>
+      <section id="slider">
+        <div
+          id="carouselExampleInterval"
+          class="carousel slide"
+          data-bs-ride="carousel"
+        >
+          <div class="carousel-inner">
+            <div class="carousel-item active" data-bs-interval="10000">
+              <img
+                src="assets/img/carousel-1.jpg"
+                class="d-block w-100"
+                alt="..."
+              />
+            </div>
+            <div class="carousel-item" data-bs-interval="2000">
+              <img
+                src="assets/img/carousel-2.jpg"
+                class="d-block w-100"
+                alt="..."
+              />
+            </div>
+          </div>
+          <button
+            class="carousel-control-prev"
+            type="button"
+            data-bs-target="#carouselExampleInterval"
+            data-bs-slide="prev"
+          >
+            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Previous</span>
+          </button>
+          <button
+            class="carousel-control-next"
+            type="button"
+            data-bs-target="#carouselExampleInterval"
+            data-bs-slide="next"
+          >
+            <span class="carousel-control-next-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Next</span>
+          </button>
+        </div>
+      </section>
+      <section id="about-us">
+        <div class="container">
+          <div class="row about-content">
+            <div class="col-4">
+              <img src="assets/img/about.jpg" alt="" />
+            </div>
+            <div class="col-8">
+              <h5>ABOUT US</h5>
+              <p class="headtext">
+                25+ Years Experience <span>In Solar Power Industry</span>
+              </p>
+              <p class="contenttext">
+                At sed est eirmod sanctus et amet diam magna. Dolore clita magna
+                sed sed stet et, at magna rebum eirmod sanctus ut sed, stet
+                tempor dolore rebum sit duo, dolore tempor sit est sit sanctus,
+                sit justo sit invidunt clita ut justo diam magna. Erat eos
+                nonumy labore dolor. Dolore kasd no et et et elitr. Erat sea
+                dolor elitr diam sed lorem rebum et vero.
+              </p>
+              <button class="btn btn-primary">Read More</button>
+            </div>
+          </div>
+        </div>
+      </section>
+      <section id="services">
+        <div class="container">
+          <div class="services-head">
+            <h5>SERVICES</h5>
+            <h1>What We Cover</h1>
+            <h3></h3>
+            <h2></h2>
+          </div>
+          <div class="services-many">
+            <div class="row">
+              <div class="col-4">
+                <div class="img">
+                  <img src="assets/img/product-1.jpg" alt="" />
+                </div>
+                <div class="name">
+                  <h1>Solar System</h1>
+                </div>
+              </div>
+              <div class="col-4">
+                <div class="img">
+                  <img src="assets/img/product-2.jpg" alt="" />
+                </div>
+                <div class="name">
+                  <h1>Wind Turbine</h1>
+                </div>
+              </div>
+              <div class="col-4">
+                <div class="img">
+                  <img src="assets/img/product-3.jpg" alt="" />
+                </div>
+                <div class="name">
+                  <h1>Wind Generator</h1>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+      <section
+        id="photogalery"
+        style="
+          background: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)),
+            url(assets/img/gallery.jpg), no-repeat;
+          background-size: cover;
+        "
+      >
+        <div class="galery-head">
+          <h5>PROJECT</h5>
+          <h1>Project Photo Gallery</h1>
+          <i class="fa-solid fa-angle-left" id="leftbtn"></i>
+          <i class="fa-solid fa-angle-right" id="rightbtn"></i>
+        </div>
+        <div class="galery-area">
+          <div class="galery" id="galery">
+            <div class="galery-item">
+              <img src="/assets/img/gallery-1.jpg" alt="" />
+            </div>
+            <div class="galery-item">
+              <img src="/assets/img/gallery-2.jpg" alt="" />
+            </div>
+            <div class="galery-item">
+              <img src="/assets/img/gallery-3.jpg" alt="" />
+            </div>
+            <div class="galery-item">
+              <img src="/assets/img/gallery-4.jpg" alt="" />
+            </div>
+            <div class="galery-item">
+              <img src="/assets/img/gallery-5.jpg" alt="" />
+            </div>
+            <div class="galery-item">
+              <img src="/assets/img/gallery-6.jpg" alt="" />
+            </div>
+          </div>
+        </div>
+      </section>
+      <section id="team">
+        <div class="container">
+          <div class="row">
+            <div class="col-6">
+              <div class="team-content">
+                <h3>Donald John</h3>
+                <h4>CEO & Founder</h4>
+                <p>
+                  Lorem elitr magna stet rebum dolores sed. Est stet labore est
+                  lorem lorem
+                </p>
+                <div class="social">
+                  <div class="icon">
+                    <i class="fa-brands fa-twitter"></i>
+                  </div>
+                  <div class="icon">
+                    <i class="fa-brands fa-facebook-f"></i>
+                  </div>
+                  <div class="icon">
+                    <i class="fa-brands fa-linkedin-in"></i>
+                  </div>
+                </div>
+              </div>
+              <div class="image">
+                <img src="assets/img/team-1.jpg" alt="" />
+              </div>
+            </div>
+            <div class="col-6"></div>
+            <div class="col-6"></div>
+            <div class="col-6">
+              <div class="image">
+                <img src="assets/img/team-1.jpg" alt="" />
+              </div>
+              <div class="team-content">
+                <h3>Donald John</h3>
+                <h4>CEO & Founder</h4>
+                <p>
+                  Lorem elitr magna stet rebum dolores sed. Est stet labore est
+                  lorem lorem
+                </p>
+                <div class="social">
+                  <div class="icon">
+                    <i class="fa-brands fa-twitter"></i>
+                  </div>
+                  <div class="icon">
+                    <i class="fa-brands fa-facebook-f"></i>
+                  </div>
+                  <div class="icon">
+                    <i class="fa-brands fa-linkedin-in"></i>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="col-6">
+              <div class="team-content">
+                <h3>Donald John</h3>
+                <h4>CEO & Founder</h4>
+                <p>
+                  Lorem elitr magna stet rebum dolores sed. Est stet labore est
+                  lorem lorem
+                </p>
+                <div class="social">
+                  <div class="icon">
+                    <i class="fa-brands fa-twitter"></i>
+                  </div>
+                  <div class="icon">
+                    <i class="fa-brands fa-facebook-f"></i>
+                  </div>
+                  <div class="icon">
+                    <i class="fa-brands fa-linkedin-in"></i>
+                  </div>
+                </div>
+              </div>
+              <div class="image">
+                <img src="assets/img/team-1.jpg" alt="" />
+              </div>
+            </div>
+            <div class="col-6"></div>
+            <div class="col-6"></div>
+            <div class="col-6">
+              <div class="image">
+                <img src="assets/img/team-1.jpg" alt="" />
+              </div>
+              <div class="team-content">
+                <h3>Donald John</h3>
+                <h4>CEO & Founder</h4>
+                <p>
+                  Lorem elitr magna stet rebum dolores sed. Est stet labore est
+                  lorem lorem
+                </p>
+                <div class="social">
+                  <div class="icon">
+                    <i class="fa-brands fa-twitter"></i>
+                  </div>
+                  <div class="icon">
+                    <i class="fa-brands fa-facebook-f"></i>
+                  </div>
+                  <div class="icon">
+                    <i class="fa-brands fa-linkedin-in"></i>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+      <section id="faq">
+        <div class="container">
+          <div class="faq-head">
+            <span>FAQS</span>
+            <h1>You Should Know</h1>
+          </div>
+          <div class="faq-content">
+            <div class="content-left">
+              <h2>Why Switch to Solar?</h2>
+              <p>
+                Vero dolor amet no eos ipsum erat
+                <i class="fa-solid fa-check"></i>
+              </p>
+              <p>
+                Lorem tempor tempor gubergren dolor dolor dolor
+                <i class="fa-solid fa-check"></i>
+              </p>
+              <p>
+                Nonumy tempor dolores sadipscing duo
+                <i class="fa-solid fa-check"></i>
+              </p>
+              <p>
+                Kasd dolor ea dolores ut nonumy
+                <i class="fa-solid fa-check"></i>
+              </p>
+            </div>
+            <div class="content-right">
+              <h2>Why Switch to Solar?</h2>
+              <p>
+                <i class="fa-solid fa-check"></i> Vero dolor amet no eos ipsum
+                erat
+              </p>
+              <p>
+                <i class="fa-solid fa-check"></i> Lorem tempor tempor gubergren
+                dolor dolor dolor
+              </p>
+              <p>
+                <i class="fa-solid fa-check"></i> Nonumy tempor dolores
+                sadipscing duo
+              </p>
+              <p>
+                <i class="fa-solid fa-check"></i> Kasd dolor ea dolores ut
+                nonumy
+              </p>
+            </div>
+          </div>
+          <div class="button">
+            <button class="btn btn-primary">Get A Quote</button>
+          </div>
+        </div>
+      </section>
+      <section id="testimonial">
+        <div class="container">
+          <div class="testimonial-head">
+            <span>TESTIMONIAL</span>
+            <h1>Our Clients Say</h1>
+            <i class="fa-solid fa-angle-left"></i>
+            <i class="fa-solid fa-angle-right"></i>
+          </div>
+          <div class="testimonial-main">
+            <div class="slider-area">
+              <div class="slider-item">
+                <div class="img">
+                  <img src="/assets/img/testimonial-1.jpg" alt="" />
+                </div>
+                <p>
+                  Dolor eirmod diam stet kasd sed. Aliqu rebum est eos. Rebum
+                  elitr dolore et eos labore, stet justo sed est sed. Diam sed
+                  sed dolor stet amet eirmod eos labore diam
+                </p>
+                <h2>Client Name</h2>
+                <span>Profession</span>
+              </div>
+              <div class="slider-item">
+                <div class="img">
+                  <img src="/assets/img/testimonial-2.jpg" alt="" />
+                </div>
+                <p>
+                  Dolor eirmod diam stet kasd sed. Aliqu rebum est eos. Rebum
+                  elitr dolore et eos labore, stet justo sed est sed. Diam sed
+                  sed dolor stet amet eirmod eos labore diam
+                </p>
+                <h2>Client Name</h2>
+                <span>Profession</span>
+              </div>
+              <div class="slider-item">
+                <div class="img">
+                  <img src="/assets/img/testimonial-1.jpg" alt="" />
+                </div>
+                <p>
+                  Dolor eirmod diam stet kasd sed. Aliqu rebum est eos. Rebum
+                  elitr dolore et eos labore, stet justo sed est sed. Diam sed
+                  sed dolor stet amet eirmod eos labore diam
+                </p>
+                <h2>Client Name</h2>
+                <span>Profession</span>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+      <section id="contact">
+        <div class="container">
+          <div class="contact-head">
+            <span>CONTACT</span>
+            <h1>Get In Touch</h1>
+          </div>
+          <div class="contact-main">
+            <form action="" method="post">
+              <div class="name-email">
+                <div class="input-item">
+                  <input
+                    type="text"
+                    class="form-control"
+                    placeholder="Your Name"
+                  />
+                </div>
+                <div class="input-item">
+                  <input
+                    type="text"
+                    class="form-control"
+                    placeholder="Your Email"
+                  />
+                </div>
+              </div>
+              <div class="input-item">
+                <input type="text" class="form-control" placeholder="Subject" />
+              </div>
+              <div class="input-item">
+                <textarea
+                  name=""
+                  id=""
+                  cols="30"
+                  rows="10"
+                  class="form-control"
+                  placeholder="Message"
+                ></textarea>
+              </div>
+              <div class="btn-send">
+                <button class="sendMesagge">Send Message</button>
+              </div>
+            </form>
+          </div>
+        </div>
+      </section>
+    </main>
+    <footer>
+      <div class="footer">
+        <div class="container">
+          <div class="footer-up">
+            <div class="row">
+              <div class="col-4">
+                <h5>OUR OFFICE</h5>
+                <p>123 Street, New York, USA</p>
+              </div>
+              <div class="col-4">
+                <h5>OUR OFFICE</h5>
+                <p>123 Street, New York, USA</p>
+              </div>
+              <div class="col-4">
+                <h5>OUR OFFICE</h5>
+                <p>123 Street, New York, USA</p>
+              </div>
+            </div>
+          </div>
+          <div class="footer-down">
+            <div class="row">
+              <div class="col-3 col1">
+                <p>
+                  Et et amet ut elitr ipsum sit dolor dolor dolore. Sit accusam
+                  elitr ut diam sit rebum. Eirmod duo kasd diam vero labore sea,
+                  est et et lorem ut at erat, gubergren ipsum et ipsum elitr et
+                  rebum rebum
+                </p>
+                <div class="social">
+                  <div class="icon">
+                    <i class="fa-brands fa-twitter"></i>
+                  </div>
+                  <div class="icon">
+                    <i class="fa-brands fa-facebook-f"></i>
+                  </div>
+                  <div class="icon">
+                    <i class="fa-brands fa-linkedin-in"></i>
+                  </div>
+                </div>
+              </div>
+              <div class="col-4 col2">
+                <h5>OUR PRODUCTS</h5>
+                <ul>
+                  <li>
+                    <i class="fa-solid fa-angle-right"></i>&nbsp;<a href=""
+                      >Solar System</a
+                    >
+                  </li>
+                  <li>
+                    <i class="fa-solid fa-angle-right"></i>&nbsp;<a href=""
+                      >Wind Turbine</a
+                    >
+                  </li>
+                  <li>
+                    <i class="fa-solid fa-angle-right"></i>&nbsp;<a href=""
+                      >Wind Generator</a
+                    >
+                  </li>
+                  <li>
+                    <i class="fa-solid fa-angle-right"></i>&nbsp;<a href=""
+                      >Solar Energy</a
+                    >
+                  </li>
+                  <li>
+                    <i class="fa-solid fa-angle-right"></i>&nbsp;<a href=""
+                      >Solar Panel</a
+                    >
+                  </li>
+                </ul>
+              </div>
+              <div class="col-5">
+                <h5>NEWSLETTER</h5>
+                <p>
+                  Rebum labore lorem dolores kasd est, et ipsum amet et at kasd,
+                  ipsum sea tempor magna tempor. Accu kasd sed ea duo ipsum.
+                  Dolor duo eirmod sea justo no lorem est diam
+                </p>
+                <form action="" method="post">
+                  <div class="form-input">
+                    <input
+                      type="email"
+                      placeholder="Your Email Adress"
+                      class="form-control"
+                    />
+                    <button class="form-control">Send</button>
+                  </div>
+                </form>
+              </div>
+            </div>
+          </div>
+          <div class="footer-end">
+            <p>
+              © <a href=""> Domain Name</a
+              ><span>. All Rights Reserved. Designed by</span>
+              <a href="">HTML Codex</a>
+            </p>
+          </div>
+        </div>
+      </div>
+    </footer>
+    <!-- JS FILE -->
+    <script src="assets/js/index.js"></script>
+  </body>
+</html>

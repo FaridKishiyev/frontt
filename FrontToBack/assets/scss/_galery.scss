@@ -1,0 +1,27 @@
+#photogalery{
+    margin: 100px 0px;
+    width: 100%;
+    height: 90vh;
+    .galery-head{
+        padding: 100px;
+        text-align: center;
+        h5{
+            color: #009CFF;
+        }
+        h1{
+            color: whitesmoke;
+        }
+        i{
+            color: #009CFF;
+            background-color: whitesmoke;
+            padding: 15px;
+            font-size: 30px;
+        }
+    }
+    .galery-area{
+        overflow: hidden;
+    }
+    .galery{
+        display: flex;
+    }
+}

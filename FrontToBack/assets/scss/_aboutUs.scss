@@ -1,0 +1,29 @@
+#about-us{
+    margin: 70px 0px;
+    .about-content, img{
+        max-height: 50vh;
+    }
+    .col-8{
+        padding: 50px 20px; 
+        h5{
+            color: #009CFF ;
+            font-weight: 400;
+        }
+        .headtext{
+            font-size: 60px;
+            color: #009CFF;
+            font-weight: bold;
+
+            span{
+                color: #22395d;
+            }
+        }
+        .contenttext{
+            color: #818491;
+            font-size: 18px;
+        }
+        .btn{
+            padding: 15px 30px;
+        }
+    }
+}

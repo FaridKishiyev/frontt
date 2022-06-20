@@ -1,0 +1,517 @@
+* {
+  margin: 0px;
+  padding: 0px;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
+.navbar {
+  background-color: #22395d;
+}
+
+.navbar .container {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+.navbar .navbar-item-1, .navbar .navbar-item-2 {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+.navbar .navbar-item-1 li, .navbar .navbar-item-2 li {
+  list-style: none;
+}
+
+.navbar .navbar-item-1 li a, .navbar .navbar-item-2 li a {
+  text-decoration: none;
+  color: whitesmoke;
+  padding: 10px;
+}
+
+.navbar .navbar-logo {
+  background-color: #009cff;
+  min-height: 56px;
+}
+
+#slider img {
+  max-height: 100vh;
+}
+
+#about-us {
+  margin: 70px 0px;
+}
+
+#about-us .about-content, #about-us img {
+  max-height: 50vh;
+}
+
+#about-us .col-8 {
+  padding: 50px 20px;
+}
+
+#about-us .col-8 h5 {
+  color: #009CFF;
+  font-weight: 400;
+}
+
+#about-us .col-8 .headtext {
+  font-size: 60px;
+  color: #009CFF;
+  font-weight: bold;
+}
+
+#about-us .col-8 .headtext span {
+  color: #22395d;
+}
+
+#about-us .col-8 .contenttext {
+  color: #818491;
+  font-size: 18px;
+}
+
+#about-us .col-8 .btn {
+  padding: 15px 30px;
+}
+
+#services {
+  margin: 70px 0px;
+}
+
+#services .services-head {
+  text-align: center;
+}
+
+#services .services-head h1 {
+  color: #22395d;
+}
+
+#services .services-head h5 {
+  color: #009CFF;
+}
+
+#services .services-many .col-4 {
+  padding: 30px;
+  text-align: center;
+}
+
+#services .services-many .col-4 img {
+  height: 400px;
+  width: 400px;
+}
+
+#services .services-many .col-4 .name {
+  background-color: #F3F6FF;
+  padding: 20px 0px;
+}
+
+#photogalery {
+  margin: 100px 0px;
+  width: 100%;
+  height: 90vh;
+}
+
+#photogalery .galery-head {
+  padding: 100px;
+  text-align: center;
+}
+
+#photogalery .galery-head h5 {
+  color: #009CFF;
+}
+
+#photogalery .galery-head h1 {
+  color: whitesmoke;
+}
+
+#photogalery .galery-head i {
+  color: #009CFF;
+  background-color: whitesmoke;
+  padding: 15px;
+  font-size: 30px;
+}
+
+#photogalery .galery-area {
+  overflow: hidden;
+}
+
+#photogalery .galery {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+#team .col-6 {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  padding: 0px;
+}
+
+#team .team-content {
+  background-color: #f3f6ff;
+  padding: 30px;
+  text-align: center;
+}
+
+#team .team-content h4 {
+  font-style: italic;
+  color: #818491;
+  font-weight: 200;
+}
+
+#team .team-content p {
+  color: #818491;
+  font-weight: 200;
+}
+
+#team .team-content .social {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+#team .team-content .social .icon {
+  width: 40px;
+  height: 40px;
+  border: 2px solid #009CFF;
+  margin: 5px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  color: #009CFF;
+}
+
+#team .team-content .social .icon:hover {
+  background-color: #009CFF;
+  color: whitesmoke;
+  cursor: pointer;
+}
+
+#faq {
+  margin: 80px 0px;
+}
+
+#faq i {
+  color: yellowgreen;
+}
+
+#faq .faq-head {
+  text-align: center;
+  padding: 30px 0px;
+}
+
+#faq .faq-head span {
+  color: #009CFF;
+}
+
+#faq .faq-head h1 {
+  color: #22395d;
+}
+
+#faq .faq-content {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+#faq .content-left {
+  text-align: end;
+  border-right: 1px solid black;
+  padding: 5px 20px;
+  color: #22395d;
+}
+
+#faq .content-left p {
+  font-size: 20px;
+}
+
+#faq .content-right {
+  padding: 5px 20px;
+  color: #22395d;
+}
+
+#faq .content-right p {
+  font-size: 20px;
+}
+
+#faq .line {
+  margin: 0px 20px;
+  width: 1px;
+  height: 200px;
+  background-color: black;
+}
+
+#faq .button {
+  padding: 50px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+#faq .button .btn {
+  font-size: 20px;
+  padding: 15px 30px;
+}
+
+#testimonial .testimonial-head {
+  text-align: center;
+}
+
+#testimonial .testimonial-main {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  overflow: hidden;
+}
+
+#testimonial .slider-area {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  width: 400px;
+  -webkit-animation: testiminiol 10s infinite;
+          animation: testiminiol 10s infinite;
+}
+
+#testimonial .slider-item {
+  min-width: 400px;
+  max-width: 400px;
+}
+
+@-webkit-keyframes testiminiol {
+  0% {
+    margin-left: 0px;
+  }
+  25% {
+    margin-left: 0px;
+  }
+  50% {
+    margin-left: -800px;
+  }
+  75% {
+    margin-left: -1600px;
+  }
+  100% {
+    margin-left: -2400px;
+  }
+}
+
+@keyframes testiminiol {
+  0% {
+    margin-left: 0px;
+  }
+  25% {
+    margin-left: 0px;
+  }
+  50% {
+    margin-left: -800px;
+  }
+  75% {
+    margin-left: -1600px;
+  }
+  100% {
+    margin-left: -2400px;
+  }
+}
+
+#contact {
+  padding: 0px 300px;
+}
+
+#contact .contact-head {
+  text-align: center;
+}
+
+#contact .contact-head h1 {
+  color: #22395d;
+}
+
+#contact .contact-head span {
+  color: #009cff;
+}
+
+#contact .name-email {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+#contact .input-item {
+  width: 100%;
+  padding: 10px 5px;
+}
+
+#contact input,
+#contact textarea {
+  background-color: #f3f6ff;
+  font-size: 18px;
+  border: none;
+  padding: 10px;
+}
+
+#contact .btn-send {
+  padding-top: 10px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+#contact .sendMesagge {
+  font-size: 20px;
+  padding: 15px 60px;
+  background-color: #009cff;
+  color: whitesmoke;
+  font-weight: 700px;
+  border: none;
+}
+
+.footer {
+  margin-top: 70px;
+  background-color: #22395d;
+}
+
+.footer h5 {
+  color: #009cff;
+}
+
+.footer .footer-up {
+  padding-top: 100px;
+}
+
+.footer .footer-up .row {
+  padding: 10px;
+  background: rgba(255, 255, 255, 0.05);
+}
+
+.footer .footer-up .col-4 {
+  text-align: center;
+  padding: 5px;
+  color: whitesmoke;
+}
+
+.footer .footer-down {
+  padding: 50px 0px;
+}
+
+.footer .footer-down .col1 {
+  color: whitesmoke;
+}
+
+.footer .footer-down .social {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+.footer .footer-down .icon {
+  margin: 5px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  width: 40px;
+  height: 40px;
+  padding: 20px;
+  border: 2px solid whitesmoke;
+}
+
+.footer .footer-down .col2 ul {
+  -webkit-margin-before: 0px;
+          margin-block-start: 0px;
+  margin-left: 0px;
+  padding-left: 0px;
+}
+
+.footer .footer-down .col2 ul li {
+  list-style: none;
+}
+
+.footer .footer-down .col2 ul li a {
+  text-decoration: none;
+  color: whitesmoke;
+}
+
+.footer .footer-down .col2 li {
+  color: whitesmoke;
+  padding: 10px;
+}
+
+.footer .footer-down .col-5 h5 {
+  color: #009cff;
+}
+
+.footer .footer-down .col-5 p {
+  color: whitesmoke;
+}
+
+.footer .footer-down .col-5 .form-input {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+.footer .footer-down .col-5 button {
+  width: 200px;
+  background-color: #009cff;
+  color: whitesmoke;
+}
+
+.footer .footer-down .col-5 input,
+.footer .footer-down .col-5 button {
+  border-radius: 0px;
+  border: none;
+  padding: 15px;
+  font-size: 18px;
+}
+
+.footer .footer-end {
+  text-align: center;
+  font-size: 18px;
+}
+
+.footer .footer-end span {
+  color: whitesmoke;
+}
+
+.footer .footer-end p {
+  margin: 0px;
+}
+
+.footer .footer-end a {
+  text-decoration: none;
+}

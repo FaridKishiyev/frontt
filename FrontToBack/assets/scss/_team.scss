@@ -1,0 +1,41 @@
+#team{
+    .col-6{
+        display: flex;
+        padding: 0px;
+    }
+    .team-content{
+        background-color: #f3f6ff;
+        padding: 30px;
+        text-align: center;
+        h4{
+            font-style: italic;
+            color: #818491;
+            font-weight: 200;
+        }
+        p{
+            color: #818491;
+            font-weight: 200;
+        }
+
+        .social{
+            display: flex;
+            justify-content: center;
+
+            .icon{
+                width: 40px;
+                height: 40px;
+                border: 2px solid #009CFF;
+                margin: 5px;
+                display: flex;
+                justify-content: center;
+                align-items: center;
+                color: #009CFF;
+            }
+            .icon:hover{
+                background-color: #009CFF;
+                color: whitesmoke;
+                cursor: pointer;
+            }
+        }
+    }
+}

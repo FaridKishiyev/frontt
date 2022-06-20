@@ -1,0 +1,26 @@
+#services{
+    margin: 70px 0px;
+    .services-head {
+            text-align: center;
+            h1{
+                color: #22395d;
+            }
+            h5{
+                color: #009CFF;
+            }
+    }
+    .services-many{
+        .col-4{
+            padding: 30px;
+            text-align: center;
+            img{
+                height: 400px;
+                width: 400px;
+            }
+            .name{
+                background-color: #F3F6FF ;
+                padding: 20px 0px;
+            }
+        }
+    }
+}
